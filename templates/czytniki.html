@@ -1,0 +1,19 @@
+<script src="../static/js/buttons.js"></script>
+
+<button onclick="redirectIndex()">Powrot</button>
+<p></p>
+<form id="myFrom">
+    <label for="tabele">Wybierz opcje która cię interesuje:</label>
+    <select name="tabele" id="tabele">
+      <option value="production">Zobacz zapis produkcji wybranego czlonka sieci</option>
+      <option value="consumption">Zobacz zapis poboru wybranego czlonka sieci</option>
+      <option value="add_cons">Dodaj zapis poboru</option>
+      <option value="add_prod">Dodaj zapis produkcji</option>
+    </select>
+    <br><br>
+    <input type="submit" value="Wybierz">
+</form>
+<div id="input"></div>
+<table id="myTable"></table>
+
+<script src="../static/js/czytniki.js"></script>

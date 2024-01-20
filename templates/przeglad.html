@@ -1,0 +1,22 @@
+<script src="../static/js/buttons.js"></script>
+
+<button onclick="redirectIndex()">Powrot</button>
+<p></p>
+<form id="myFrom">
+    <label for="tabele">Wybierz tabele lub widok:</label>
+    <select name="tabele" id="tabele">
+      <option value="powiaty">Powiaty</option>
+      <option value="wojewodztwa">Wojewodztwa</option>
+      <option value="consumers_view">Consumers View</option>
+      <option value="producers_view">Producers View</option>
+      <option value="avg_production_grid">See average production</option>
+      <option value="avg_consumption_grid">See average consumption</option>
+      <option value="emergencies">Emergencies View</option>
+    </select>
+    <br><br>
+    <input type="submit" value="Wybierz">
+</form>
+
+
+<table id="myTable"></table>
+<script src="../static/js/przeglad.js"></script>
